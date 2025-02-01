@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ExploreFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:background="#05203D">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="163dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="144dp"
+            android:text="SkyReserve"
+            android:textColor="#EFEDED"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="59dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/img"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="50dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="61dp"
+            android:src="@drawable/plane6_icon"
+            app:layout_constraintEnd_toStartOf="@+id/imageView19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="49dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/hotel_icon"
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintEnd_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="50dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="117dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/plane6_icon"
+            app:layout_constraintBottom_toTopOf="@+id/textView21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="40dp"
+            android:text=" Flights"
+            android:textAlignment="center"
+            android:textColor="#E0DDDD"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18"
+            tools:text=" Flights" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="40dp"
+            android:text="Hotels"
+            android:textAlignment="textStart"
+            android:textColor="#E0DDDD"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView21"
+            app:layout_constraintStart_toEndOf="@+id/textView19"
+            tools:text="Hotels" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="40dp"
+            android:text="Feature3"
+            android:textAlignment="center"
+            android:textColor="#E0DDDD"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20"
+            tools:text="Feature3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
